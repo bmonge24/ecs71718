@@ -13,7 +13,7 @@
         <center>
         <style>
 #bob {
-    height: px;
+    height: 250px;
     padding: 40px;
     background: linear-gradient(to bottom, #2193b0 0%, #6dd5ed 100%)
 }
@@ -21,30 +21,111 @@
     height: px;
     background: linear-gradient(to bottom, #000428 0%, #004e92 100%)
 }
+#bob3 {
+    background: linear-gradient(to bottom, #2193b0 0%, #6dd5ed 100%)
+}
 body {
     background-image: url("https://i.stack.imgur.com/p9mUO.jpg");
 }
+.pagination a {
+    color: #3342FF;
+    float: left;
+    padding: 8px 16px;
+    transition: background-color .3s;
+}
+.pagination .active {
+    background-color: dodgerblue;
+    color: white;
+}
+.pagination a:hover:not(.active) {background-color: #ddd;
+}
+#hello {
+    background: linear-gradient(to bottom, #2193b0 0%, #6dd5ed 100%)
+}
+h2 {
+   height: 60px;
+    padding: 12.5px;
+    background: linear-gradient(to bottom, #990099 0%, #ff33ff 100%)
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+h3 {
+   height: 60px;
+   padding: 12.5px;
+    background: linear-gradient(to bottom, #004e92 100%,  #000428 0%)
+}
         </style>
+  <br>
+   <div id="bob3">
+       <div id="hello" class="pagination">
+  <a href="http://dogtime.com/dog-breeds/german-shepherd-dog#/slide/1">Many Facts</a>
+  <a class="active" href="http://www.akc.org/content/entertainment/articles/amazing-facts-about-german-shepherd/">9 Facts</a>
+  <a href="http://www.vetstreet.com/dogs/german-shepherd-dog">Quick Facts</a>
+    </div>
    
-    <br> <div id="bob" class="thumbnail">
+    <br> <div id="bob" class="jumbotron">
   <h1 class="display-3">German Shepard <br> <small>Canis lupus familiaris</small></h1>
 </div>
-
+</div>
+<div id="navbar" class="container"> 
+<h2> My Previous Projects</h2>
+<ul>
+  <li><a href="https://bmonge24.github.io/ecs71718/HTML/practice1.html">Practice1.html</a></li>
+  <li><a href="https://bmonge24.github.io/ecs71718/HTML/table1.html">Table1.html</a></li>
+  <li><a href="https://bmonge24.github.io/ecs71718/HTML/FavoriteAnimal.html">FavoriteAnimal.html</a></li>
+</ul>
+</div>
+<br>
 <div id="bob2" class="jumbotron"> 
 <div class="row">
-    <div class="col-lg-4"><img src="http://cdn1-www.dogtime.com/assets/uploads/gallery/german-shepherd-dog-breed-pictures/pupporch-9.jpg" width=100% height=100%>
+    <div class="col-lg-4"><a target="_blank" href="http://cdn1-www.dogtime.com/assets/uploads/gallery/german-shepherd-dog-breed-pictures/pupporch-9.jpg"><img src="http://cdn1-www.dogtime.com/assets/uploads/gallery/german-shepherd-dog-breed-pictures/pupporch-9.jpg" width=100% height=100%></a>
      
      <figcaption><font color="#3342FF">This image is from dogtime.com </font></figcaption></div>
        
-         <div class="col-lg-4"><img src="https://animalso.com/wp-content/uploads/2017/01/german-shepherd-puppies_4.jpg" width=100% height=100%>
+         <div class="col-lg-4"> <a target="_blank" href="https://animalso.com/wp-content/uploads/2017/01/german-shepherd-puppies_4.jpg">
+         <img src="https://animalso.com/wp-content/uploads/2017/01/german-shepherd-puppies_4.jpg" width=100% height=100%> </a>
  
- <figcaption><font color="#3342FF  ">This image is from animalso.com </font></figcaption></div>
+ <figcaption><font color="#3342FF">This image is from animalso.com </font></figcaption></div>
     
-    <div class="col-lg-4"><img src="https://i.ytimg.com/vi/oGoPUw0YBAg/maxresdefault.jpg" width=100% height=100%> 
-     
+    <div class="col-lg-4"> <a target="_blank" href="https://i.ytimg.com/vi/oGoPUw0YBAg/maxresdefault.jpg">
+    <img src="https://i.ytimg.com/vi/oGoPUw0YBAg/maxresdefault.jpg" width=100% height=100%> </a>
      <figcaption><font color="#3342FF">This image is from i.ytimg.com </font></figcaption></div>
 </div> 
 </div>
 </div>
+<div class="container">
+  <h3> <font color="Black">Click on the button below to learn the feeding habits of a German Shepard!</font></h3>
+<button type="button" class="btn btn-info" data-toggle="collapse" data-target="#demo"> 
+<font color="black">Learn Now! </font> </button>
+  <div id="demo" class="collapse">
+   <font color="#3342FF"> Due to German Shepards energetic lifestyle, they require a power packed diet.
+   They are carnivores meaning they require a higher amount of protein in their diet.
+   It is recomended that your German Shepard gets at least 22% protein in their diet in order
+   to keep them strong, healthy, and to allow proper growth. Fat is also important in their diet because it gives
+   taste to its food, howver too much isn't healthy but too little may cause skin problems. Fat is recomended to be 
+   5%-8% of their diet. When it comes to German Shepard puppies, they normally eat more than the adults because
+   lots of this food contribiutes to your puppies growth.</font>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
    </body>
 </html>
